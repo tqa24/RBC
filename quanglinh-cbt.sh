@@ -105,15 +105,15 @@ error_detect_depends() {
 
 # Cài đặt trước cài đặt
 pre_install_docker_compose() {
-  echo -e "  [1] doravpn.site"
-  echo -e "  [2] doravpn.site"
+  echo -e "  [1] thaga5g.site"
+  echo -e "  [2] thaga5g.site"
   read -p "  Web đang sử dụng:" api_host
   if [ "$api_host" == "1" ]; then
-    api_host="https://doravpn.site/"
+    api_host="https://thaga5g.site/"
   elif [ "$api_host" == "2" ]; then
-    api_host="https://doravpn.site/"
+    api_host="https://thaga5g.site/"
   else 
-    api_host="https://doravpn.site/"
+    api_host="https://thaga5g.site/"
   fi
 
   echo "--------------------------------"
